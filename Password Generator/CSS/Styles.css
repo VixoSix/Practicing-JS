@@ -1,10 +1,15 @@
 body{
-    background-color: #1b262c;
     color: #fff;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .75), rgb(0 0 0/ .15)), url(../IMG/backgroud.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
 }
 
 .generator{
-    background-color: #0f4c75;
+    background-color: #222831;
     width: 400px;
     margin: 150px auto;
     padding: 20px;
@@ -20,13 +25,13 @@ div.password{
 
 div.password input{
     padding: 7px 10px;
-    background-color: #3282b8;
+    background-color: #31363F;
     border: 0;
     color: #fff;
 }
 
 button{
-    background-color: #126298;
+    background-color: #004884d0;
     color: #fff;
     text-transform: uppercase;
     padding: 5px 15px;
@@ -61,7 +66,8 @@ div.options{
 
 div.options label{
     display: block;
-    background-color: rgba(0,0,0, .2);
+    /* background-color: rgba(0,0,0, .2); */
+    background-color: #31363F;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
